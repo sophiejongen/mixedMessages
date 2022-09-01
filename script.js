@@ -1,6 +1,6 @@
 // These are my 3 categories 
 
-const color = ['red', 'pink', 'green', 'blue', 'purple', 'yellow', 'orange', 'brown'];
+const color = ['a red', 'a pink', 'a green', 'a blue', 'a purple', 'a yellow', 'an orange', 'a brown'];
 
 const character = ['baby', 'dog', 'kangaroo', 'snake', 'elephant', 'mouse', 'plant', 'shark'];
 
@@ -19,4 +19,4 @@ let characterChoice = character[generateCharacter];
 let objectChoice = object[generateObject];
 
 //console.log(colorChoice); 
-console.log(`Your lucky charm is a ${colorChoice} ${characterChoice} with ${objectChoice}.`);
+console.log(`Your lucky charm is ${colorChoice} ${characterChoice} with ${objectChoice}.`);
